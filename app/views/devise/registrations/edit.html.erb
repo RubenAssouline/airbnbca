@@ -6,16 +6,19 @@
       <%= devise_error_messages! %>
 
         <div class="form-group">
-         <%= f.text_field :fullname, autofocus: true, class: "form-control" ,placeolder: "Nom complet ( prénom + nom)" %>
+         <%= f.text_field :fullname, autofocus: true, class: "form-control" ,placeholder: "Nom complet ( prénom + nom)" %>
         </div> 
     
       <div class="form-group">
-        <%= f.email_field :email, autofocus: true, class: "form-control" ,placeolder: "Adresse e-mail" %>
+        <%= f.email_field :email, autofocus: true, class: "form-control" ,placeholder: "Adresse e-mail" %>
+      </div>
+    <div class="form-group">
+        <%= f.file_field :avatar %>
       </div>
 
 
       <div class="field">
-        <%= f.password_field :password, autocomplete: "off" , class: "form-control" ,placeolder: "Nouveau mot de pass ( si vous souhaitez le changer)"  %>
+        <%= f.password_field :password, autocomplete: "off" , class: "form-control" , placeholder: "Nouveau mot de pass ( si vous souhaitez le changer)"  %>
         <% if @minimum_password_length %>
           <br />
           <em><%= @minimum_password_length %> characters minimum</em>
@@ -23,12 +26,12 @@
       </div>
 
       <div class="field">
-        <%= f.password_field :password_confirmation, autocomplete: "off", class: "form-control" ,placeolder: "Confirmation du mot de Pass"  %>
+        <%= f.password_field :password_confirmation, autocomplete: "off", class: "form-control" , placeholder: "Confirmation du mot de Pass"  %>
       </div>
 
       <div class="field">
         <%= f.label :current_password %> <i>(we need your current password to confirm your changes)</i><br />
-        <%= f.password_field :current_password, autocomplete: "off", class: "form-control" ,placeolder: "Mot de pass actuel pour confirmer tout changements"  %>
+        <%= f.password_field :current_password, autocomplete: "off", class: "form-control", placeholder: "Mot de pass actuel pour confirmer tout changements"  %>
       </div>
 
       <div class="actions">

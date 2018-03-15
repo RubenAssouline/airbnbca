@@ -9,6 +9,7 @@ gem 'rails', '4.2.3'
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'devise-i18n'
+gem "paperclip"
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
