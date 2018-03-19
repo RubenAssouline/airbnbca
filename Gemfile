@@ -10,6 +10,7 @@ gem 'bootstrap-sass'
 gem 'devise'
 gem 'devise-i18n'
 gem "paperclip"
+gem "toastr-rails"
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
@@ -54,4 +55,5 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
 

@@ -1,5 +1,6 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "toastr"; 
 
 .avatar-small {
   width: 28px;  
@@ -13,7 +14,7 @@
   width: 68px;  
 } 
 
-.avatar-entiere {
+.avatar-full {
   width: 100%;  
 } 
 body {  
@@ -40,7 +41,7 @@ background-color: #FFFFFF;
 
 
 
-.navbar-default .navbar-brand {
+.navbar-default.navbar-brand {
 
 color: #FF5A5F;
 
@@ -105,7 +106,7 @@ margin-top: 10px;
 }
 
 
-.panel-default .panel-heading {
+.panel-default.panel-heading {
 
 color: #565a5c;
 
@@ -156,5 +157,111 @@ font-weight: 500;
 line-height: 25px;
 
 }
+ 
 
+.form-group {
+
+margin-bottom: 25px;
+
+}
+
+
+.form-control {
+
+border-radius: 2px;
+
+height: 4rem;
+
+}
+
+
+.sidebar-list {
+
+padding-left: 0;
+
+list-style: none;
+
+}
+
+
+.sidebar-item {
+
+padding: 10px 0;
+
+font-size: 16px;
+
+color: #82888a;
+
+border-bottom: 1px solid #CCC;
+
+}
+
+
+.sidebar-link {
+
+color: #82888a;
+
+text-decoration: none;
+
+}
+
+
+.sidebar-link:hover, .sidebar-link:focus {
+
+color: #cacccd;
+
+text-decoration: none;
+
+}
+
+
+.active.sidebar-link {
+
+color: #565a5c;
+
+font-weight: bold;
+
+text-decoration: none;
+
+}
+
+
+.btn-file {
+
+position: relative;
+
+overflow: hidden;
+
+}
+
+
+.btn-file input[type=file] {
+
+position: absolute;
+
+top: 0;
+
+right: 0;
+
+min-width: 100%;
+
+min-height: 100%;
+
+font-size: 100px;
+
+text-align: right;
+
+filter: alpha(opacity=0);
+
+opacity: 0;
+
+outline: none;
+
+background: white;
+
+cursor: inherit;
+
+display: block;
+
+}
 
