@@ -10,6 +10,7 @@ gem 'bootstrap-sass'
 gem 'devise'
 gem 'devise-i18n'
 gem "paperclip"
+gem 'rails-i18n'
 gem "toastr-rails"
 # Use SCSS for stylesheets
 gem 'sass-rails'
