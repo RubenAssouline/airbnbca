@@ -12,6 +12,7 @@ gem 'devise-i18n'
 gem "paperclip"
 gem 'rails-i18n'
 gem "toastr-rails"
+gem "font-awesome-sass"
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
