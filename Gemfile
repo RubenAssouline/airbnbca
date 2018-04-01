@@ -10,11 +10,16 @@ gem 'bootstrap-sass'
 gem 'devise'
 gem 'devise-i18n'
 gem "paperclip"
+gem 'geocoder'
+gem 'jquery-ui-rails'
 gem 'rails-i18n'
 gem "toastr-rails"
 gem "font-awesome-sass"
+
+
 # Use SCSS for stylesheets
 gem 'sass-rails'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views

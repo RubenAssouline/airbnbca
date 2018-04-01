@@ -14,7 +14,7 @@
 //= require bootstrap-sprockets
 //= require jquery_ujs
 //= require toastr
-//= require turbolinks
+//= require jquery-ui 
 //= require_tree .
 
     toastr.options = {
